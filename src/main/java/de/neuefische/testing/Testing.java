@@ -10,4 +10,20 @@ public class Testing {
 		return a + b;
 	}
 
+	public static boolean isEven(int n){
+		return n % 2 == 0;
+	}
+
+	public static int product(int a, int b){
+		return a * b;
+	}
+
+	public static String toUpperCase(String s){
+		return s.toUpperCase();
+	}
+
+	public static boolean isPositive(int n){
+		return n > 0;
+	}
+
 }
